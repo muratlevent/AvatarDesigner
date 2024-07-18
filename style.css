@@ -1,0 +1,15 @@
+.avatar-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+#avatar {
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}

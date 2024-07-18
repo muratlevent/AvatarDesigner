@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar Designer</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="avatar-container">
+    <img id="avatar" src="cat1.png" alt="Avatar">
+    <div class="controls">
+        <button id="btn1" data-image="cat1.png">Image 1</button>
+        <button id="btn2" data-image="cat2.jpg">Image 2</button>
+        <button id="btn3" data-image="cat3.png">Image 3</button>
+        <input type="file" id="upload" accept="image/*">
+        <input type="range" id="border-radius" min="0" max="50">
+        <input type="color" id="border-color">
+    </div>
+</div>
+<script src="/main.js"></script>
+</body>
+</html>
