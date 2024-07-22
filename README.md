@@ -39,14 +39,18 @@ To get a local copy up and running, follow these steps:
    ```bash
    npm install
    ```
-4. Start the development server using Vite:
+4. If Vite is not installed globally, install it:
+   ```bash
+   npm install -g vite
+   ```
+5. Start the development server using Vite:
    ```bash
    npm run dev
    ```
 
 ### Usage
 
-1. Open your browser and navigate to `http://localhost:3000`.
+1. Open your browser and navigate to `http://localhost:5173`.
 2. Use the provided buttons to select an image or upload your own.
 3. Adjust the border radius and border color using the slider and color picker.
 
@@ -55,12 +59,11 @@ To get a local copy up and running, follow these steps:
 - `index.html`: Main HTML file.
 - `style.css`: CSS file for styling.
 - `main.js`: JavaScript file for interactivity.
-- `images/`: Directory containing predefined images.
-- `vite.config.js`: Configuration file for Vite.
+- `public/`: Directory containing predefined images.
 
 ## Customization
 
-To add more predefined images, place your images in the `images/` directory and update the HTML and JavaScript accordingly.
+To add more predefined images, place your images in the `public/` directory and update the HTML and JavaScript accordingly.
 
 ## License
 
@@ -68,4 +71,4 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-- **Learn JavaScript Online:** This project was inspired by the Avatar Designer project suggestion from the [Learn JavaScript Online](https://learnjavascript.online/projects) course.
+- **Learn JavaScript Online:** This project was inspired by the Avatar Designer project suggestion from the [Learn JavaScript Online](https://learnjavascript.online) course.
