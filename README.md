@@ -68,7 +68,3 @@ To add more predefined images, place your images in the `public/` directory and 
 ## License
 
 This project is licensed under the MIT License.
-
-## Acknowledgments
-
-- **Learn JavaScript Online:** This project was inspired by the Avatar Designer project suggestion from the [Learn JavaScript Online](https://learnjavascript.online) course.
